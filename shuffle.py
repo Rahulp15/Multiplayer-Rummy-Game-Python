@@ -1,4 +1,5 @@
 import random
+from traceback import print_exception
 SUIT = ["H","C","S","D"]
 RANK = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"]
 stock_deck = [(r + s) for s in SUIT for r in RANK]
